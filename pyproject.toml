@@ -1,6 +1,13 @@
 [project]
 name = "matrixpybot"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.14"
-dependencies = []
+description = "A Python library for sending and receiving Matrix messages with E2EE support, designed for home automation and local AI image analysis."
+requires-python = ">=3.10"
+dependencies = [
+    "matrix-nio[e2e]",
+    "python-dotenv",
+    "aiohttp",
+    "Pillow",
+    "transformers",
+    "torch",
+]

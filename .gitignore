@@ -1,0 +1,37 @@
+# Environment & secrets
+.env
+
+# Matrix session files – contain access tokens and encryption keys!
+bot_credentials.json
+sync_token.json
+store/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# HuggingFace model cache (large, no need to commit)
+# models are re-downloaded automatically
+*.bin
+*.safetensors
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
